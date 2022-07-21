@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <script src="peterScript.js" defer></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	    <link href="peterStyle.css" rel="stylesheet">
+	    <title>Miscellaneous</title>
+    </head>
+    <body>
+        <ul class="tabs">	
+			<li><button onclick="location.href='index.html'" class="button">Home</button></li>
+			<li><button onclick="location.href='coursework.html'" class="button">Coursework</button></li>
+			<li><button onclick="location.href='misc.html'" class="button">Miscellaneous</button></li>
+		</ul>
+
+        <div class="courseT">
+            <h1>Miscellaneous</h1>
+            <h3>Opinions on Notation, Definitions, and Mathematical Writing</h3>
+            <ul>
+                <li>This symbol, \(\subset\), means subset. This symbol, \(\subsetneq\), means proper subset.</li>
+                <li>When defining limits with epsilon-delta language, it is \(0 < |x - a| < \delta\), and not \(|x - a| < \delta\) (as done in France).</li>
+                <li>Avoid unnecessary use of logic symbols like \(\forall, \exists, \land, \lor, \neg, \therefore\). Natural language is more readable for everyone.</li>
+                <li>Writing integrals like \(\int_\mathbb{R}f(x)dx\) is preferable to writing them like \(\int_{-\infty}^\infty f(x)dx\).</li>
+                <li>Do not, however, write something like \(\sum_\mathbb{N} s(n)\).</li>
+                <li>Leibniz's notation for differentiation (\(\frac{df}{dx}, \frac{\partial f}{\partial x}, etc\) ) is preferable.</li>
+                <li>While sometimes inconvenient, it must be that \(0 \in \mathbb{N} \) because of the set-theoretic definition of the natural numbers.</li>
+                <li>Write vectors like \(\mathbf{u, v, w}\), and not like \(\vec{u}, \vec{v}, \vec{w}\).</li>
+            </ul>
+            <h3>My Philosophical Positions</h3>
+            <p>
+                &emsp; I would say that I am a neo-logical positivist. However, if you saw the picture of Immanuel Kant on the homepage, you might be confused. Here is my explanation. When we make philosophical statements, it is important that they are rooted in something. That "something" is axioms. When we make mathematical claims, those axioms are well-defined. We have Peano, ZFC, etc. which allow us to check the validity of our claims. Of course those axioms are assumptions, but that is ok. We need to start from something. However, as the logical positivists pointed out, we have no such axioms for ethics or metaphysics. So if we want to be scientific, this severely limits philosophy as a whole. However, Kant&#8212and in this way, I am not like a logical positivist&#8212solves this problem through the categorical imperative. Kant gives us these four formulations from which each individual can build their own moral maxims. Importantly, Kant does not tell us to follow <i>his</i> moral maxims (well, he does give his opinion on truth, but that does not have to be one of our maxims). So if we accept these axioms/formulations, we can judge whether a decision is ethical by asking "Is it possible to construct a set of moral maxims from Kant's axioms such that this action is allowable?"
+            </p>
+        </div>
+
+    </body>
+</html>
